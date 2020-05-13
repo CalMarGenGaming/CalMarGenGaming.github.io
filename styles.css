@@ -1,0 +1,52 @@
+html {
+    background-color: white;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.topbar-line {
+    background-color: #fecd08;
+    height: 5px;
+    width: 100%;
+}
+
+.logo {
+    padding: 5px 5px 5px;
+    flex-grow: 12;
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+}
+
+.topbar {
+    width: 100%;
+    background-color: rgba(19, 26, 99, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.topbar a {
+    text-align: center;
+    color: white;
+    padding: 20px 16px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    flex-grow: 1;
+}
+
+.topbar a:hover {
+    color: #fecd08;
+}
