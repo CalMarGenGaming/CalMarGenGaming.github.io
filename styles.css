@@ -1,9 +1,11 @@
 html {
     background-color: white;
+    width: 100%
 }
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%
 }
 
 .container {
@@ -622,8 +624,8 @@ pre code {
 
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
 }

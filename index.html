@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="CWG Home" content="" />
+  <meta name="Christina Neumann" content="" />
     <link rel="stylesheet" href="styles.css">
     <link rel="logo icon" href="images/logo_controller.ico"/>
     <title>Cal Women in Gaming</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="topbar">
             <div class="logo">
                 <a href="#home"><img src="images/main_logo.png" alt="CWG Logo"/></a>
             </div>
             <a href="#about">About CWG</a>
             <a href="#board">Meet the Board</a>
+            <a href="#faq">FAQ</a>
             <a href="#events">Events</a>
             <a href="#contact">Contact</a>
         </div>
         <div class="topbar-line"></div>
-        <img src="images/fb_cover.jpg" alt="Cover Photo">
+        <div class="container">
+          <img src="images/cover_photo.png" alt="Cover Photo">
+          </div>
         <!-- About-->
         <section class="page-section bg-primary" id="about">
             <div class="container">
@@ -39,28 +46,28 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+                            <img src="images/icons/heart1.png" alt="uwu"/>
                             <h3 class="h4 mb-2">Co-Presidents</h3>
                             <p class="text-muted mb-0">Meredith and Helen are so cute uwu!</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                            <img src="images/icons/controller1.png" alt="owo"/>
                             <h3 class="h4 mb-2">Marketing Officers</h3>
                             <p class="text-muted mb-0">Kim and Jenny are so cool owo.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Mentorship Program</h3>
+                          <img src="images/icons/heart1.png" alt="uwu"/>
+                            <h3 class="h4 mb-2">Mentorship Program Leads</h3>
                             <p class="text-muted mb-0">Cathy is so wholesome uwu!</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+                            <img src="images/icons/controller1.png" alt="uwu"/>
                             <h3 class="h4 mb-2">Corporate Relations Officers</h3>
                             <p class="text-muted mb-0">We love Audrey uwu </p>
                         </div>
@@ -76,7 +83,7 @@
                         <a class="portfolio-box" href="images/family_reveal.jpg">
                             <img class="img-fluid" src="images/welcome_back_lan.jpg" alt="" />
                             <div class="portfolio-box-caption">
-                                <!-- <div class="project-category text-white-50">Event 1</div> -->
+                                <div class="project-category text-white-50">Event 1</div>
                                 <div class="project-name">Welcome Back LAN</div>
                             </div>
                         </a>
@@ -85,7 +92,7 @@
                         <a class="portfolio-box" href="images/fb_cover.jpg">
                             <img class="img-fluid" src="images/mentorship_kickoff.jpg" alt="" />
                             <div class="portfolio-box-caption">
-                                <!-- <div class="project-category text-white-50">Event 2</div> -->
+                                <div class="project-category text-white-50">Event 2</div>
                                 <div class="project-name">Mentorship Kickoff</div>
                             </div>
                         </a>
@@ -94,7 +101,7 @@
                         <a class="portfolio-box" href="images/fb_cover.jpg">
                             <img class="img-fluid" src="images/family_reveal.jpg" alt="" />
                             <div class="portfolio-box-caption">
-                                <!-- <div class="project-category text-white-50">Event 3</div> -->
+                                <div class="project-category text-white-50">Event 3</div>
                                 <div class="project-name">Family Reveal</div>
                             </div>
                         </a>
@@ -103,7 +110,7 @@
                         <a class="portfolio-box" href="images/fb_cover.jpg">
                             <img class="img-fluid" src="images/thanksgiving_potluck.jpg" alt="" />
                             <div class="portfolio-box-caption">
-                                <!-- <div class="project-category text-white-50">Event 4</div> -->
+                                <div class="project-category text-white-50">Event 4</div>
                                 <div class="project-name">Thanksgiving Potluck</div>
                             </div>
                         </a>
@@ -112,7 +119,7 @@
                         <a class="portfolio-box" href="images/fb_cover.jpg">
                             <img class="img-fluid" src="images/galentines.jpg" alt="" />
                             <div class="portfolio-box-caption">
-                                <!-- <div class="project-category text-white-50">Event 5</div> -->
+                                <div class="project-category text-white-50">Event 5</div>
                                 <div class="project-name">Galentines LAN</div>
                             </div>
                         </a>
@@ -121,7 +128,7 @@
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg">
                             <img class="img-fluid" src="images/spring_summit.jpg" alt="" />
                             <div class="portfolio-box-caption p-3">
-                                <!-- <div class="project-category text-white-50">Category</div> -->
+                                <div class="project-category text-white-50">Category</div>
                                 <div class="project-name">Spring Summit</div>
                             </div>
                         </a>
@@ -141,18 +148,20 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                      <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                      <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                      <a class="d-block" href="facebook.com/CalWomeninGaming">Facebook</a>
+                      <div class="logo">
+                          <a href="facebook.com/CalWomeninGaming"><img src="images/icons/facebook1.png" alt="Facebook"/></a>
+                      </div>                  <a class="d-block" href="facebook.com/CalWomeninGaming">Facebook</a>
                     </div>
                     <div class="col-lg-4 mr-auto text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                        <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                        <a class="d-block" href="twitter.com/CalWomeninGaming">Twitter</a>
+                      <div class = "logo">
+                        <a href="twitter.com/CalWomenGaming"><img src="images/icons/twitter1.png" alt="Twitter"/></a>
+                        </div>
+                        <a class="d-block" href="twitter.com/CalWomenGaming">Twitter</a>
                     </div>
                     <div class="col-lg-4 mr-auto text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                        <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
+                      <div class="logo">
+                          <a href="discord.gg/CWGDiscord"><img src="images/icons/discord1.png" alt="Discord"/></a>
+                      </div>
                         <a class="d-block" href="discord.gg/CWGDiscord">Discord</a>
                     </div>
                 </div>
@@ -160,7 +169,7 @@
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Start Bootstrap</div></div>
+            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Cal Women in Gaming<br>Icons by icons8</div></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
