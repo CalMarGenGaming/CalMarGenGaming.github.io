@@ -38,6 +38,15 @@ head::before {
   max-height:100%;
 }
 
+.container-home {
+  min-height:100vh; 
+  width:100%;
+  margin-top:55px;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('images/collage_no_logo.png');
+  background-size: cover;
+  color: #ffffff;
+}
+
 .bg_image {
 display: flex;
 flex-direction: column;
@@ -49,7 +58,7 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-background-image: url(images/collage_no_logo.png);
+background-image: url(images/CWG_collage_2020.png);
 }
 
   .page-section {
@@ -103,19 +112,20 @@ justify-content: center;
 }
 
 .about {
-  padding: 80px; /* some padding */
+  padding: 20px; /* some padding */
   text-align: center; /* center the text */
-  background: #fffffa;
+  margin-left: 20%;
+  margin-right: 20%;
   color: #ffffff;
+  line-height: 150%;
 }
 
 .about-home {
   padding: 80px; /* some padding */
   text-align: center; /* center the text */
-  background: #fffffa;
-  color: #ffffff;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/collage_no_logo.png');
+  /* background: #fffffa; */
 }
+
 
 /* Increase the font size of the <h1> element */
 .about h1 {
@@ -193,7 +203,9 @@ justify-content: center;
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 800px;
+  margin-top: 70px;
+  max-width: 60%;
+  height: 600px;
   position: relative;
   flex-direction: row;
   align-items: center;
