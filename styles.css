@@ -169,13 +169,13 @@ justify-content: center;
 .discord {
   background-color: #738ADB;
   color: white;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
   border-radius: 5px;
   font-size: 24;
-  align-self: stretch;
+  align-self: flex-start;
 }
 .discord a {
   color: inherit;
@@ -213,7 +213,8 @@ justify-content: center;
 }
 
 .about-home {
-  padding: 80px; /* some padding */
+  padding: 20px; /* some padding */
+  margin-top: 40px;
   text-align: center; /* center the text */
   /* background: #fffffa; */
 }
@@ -231,7 +232,7 @@ justify-content: center;
 }
 
 .about h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-family: 'Poppins-Regular', sans-serif;
 }
 
@@ -270,6 +271,7 @@ justify-content: center;
   text-align: center;
   flex-direction: row;
   font-size: 14px;
+  background-color: white;
 }
 
 .bio_card img {
@@ -309,6 +311,8 @@ justify-content: center;
   margin: auto;
   padding:0 15px;
   text-align: center;
+  background-color: white;
+  color: black;
 }
 
 .card hb {
