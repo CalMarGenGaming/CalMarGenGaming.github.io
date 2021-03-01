@@ -1,5 +1,5 @@
 html {
-  background-color: white;
+  background-color: #FFFAFF;
   width: 100%
   scroll-behavior: smooth;
 }
@@ -61,7 +61,7 @@ head::before {
   width:100%;
   margin-top:50px;
   justify-content: center;
-  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3) ), url(images/cwg-bg.png);
+  background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url(images/cwg-bg.png);
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
@@ -167,7 +167,7 @@ justify-content: center;
 }
 
 .discord {
-  background-color: #738ADB;
+  background-color: #0E1130;
   color: white;
   display: flex;
   margin-left: auto;
@@ -437,7 +437,7 @@ button:hover, a:hover {
 .footer {
   padding: 20px; /* Some padding */
   text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
+  background: #EAEBED; /* Grey background */
   font-size: 12px;
 }
 
@@ -461,4 +461,53 @@ button:hover, a:hover {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* Skewed Page Divider code */
+
+.colour-block {
+  background:#CF8AA3;
+  width:100%;
+  padding:7% 20% 10% 20%;
+  color:#fffaff;
+}
+.white-block {
+  background:#fffaff;
+  width:100%;
+  padding:7% 20% 10% 20%;
+  color:#0E1130;
+}
+/* h1 {
+  text-align:center;
+  font-size:80px;
+  font-family:'wire one', serif;
+  font-weight:normal;
+}
+p {
+  font-size:20px;
+  font-family:'Raleway', serif;
+} */
+
+
+/*------------------*/
+/*  SKEW CLOCKWISE  */
+/*------------------*/
+.skew-cc{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #CF8AA3 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.skew-c{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #fff 49%, #CF8AA3 50%);
 }
