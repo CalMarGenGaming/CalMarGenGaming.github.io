@@ -169,13 +169,12 @@ justify-content: center;
 .discord {
   background-color: #0E1130;
   color: white;
-  display: flex;
+  display: inline-flex;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
   border-radius: 5px;
   font-size: 24;
-  align-self: flex-start;
 }
 .discord a {
   color: inherit;
@@ -468,33 +467,23 @@ button:hover, a:hover {
 .colour-block {
   background:#CF8AA3;
   width:100%;
-  padding:7% 5% 10% 5%;
+  padding:10% 5% 7% 5%;
   color:#fffaff;
 }
 
 .colour-block2 {
   background:#8197E7;
   width:100%;
-  padding:7% 5% 10% 5%;
+  padding:10% 5% 7% 5%;
   color:#fffaff;
 }
 
 .white-block {
   background:#fffaff;
   width:100%;
-  padding:7% 5% 10% 5%;
+  padding:10% 5% 7% 5%;
   color:#0E1130;
 }
-/* h1 {
-  text-align:center;
-  font-size:80px;
-  font-family:'wire one', serif;
-  font-weight:normal;
-}
-p {
-  font-size:20px;
-  font-family:'Raleway', serif;
-} */
 
 
 /*------------------*/
@@ -602,4 +591,49 @@ p {
   height:40px;
   background: linear-gradient(-45deg, #CF8AA3 20px, transparent 0), linear-gradient(45deg, #CF8AA3 20px, transparent 0);
   -webkit-background-size: 55px 100%;
+}
+
+/*----------------*/
+/*  ACCORDIAN     */
+/*----------------*/
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #FFFAFF;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 22px;
+  font-family: 'Poppins-Regular', sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #EAEBED;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #fffaff;
+  font-size: 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
