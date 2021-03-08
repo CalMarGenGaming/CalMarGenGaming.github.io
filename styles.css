@@ -64,6 +64,7 @@ head::before {
   background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url(images/cwg-bg.png);
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   color: #ffffff;
 }
 
@@ -120,6 +121,7 @@ justify-content: center;
   position: fixed;
   z-index: 999;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  overflow: hidden;
 }
 
 .topbar a {
@@ -484,6 +486,7 @@ button:hover, a:hover {
   padding:10% 5% 7% 5%;
   color:#0E1130;
 }
+
 
 
 /*------------------*/
