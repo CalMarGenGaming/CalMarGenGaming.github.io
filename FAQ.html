@@ -11,16 +11,19 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="topbar">
+        <div class="topbar" id="Nav">
             <div class="logo">
                 <a href="index.html"><img src="images/strokelogo.png" alt="CWG Logo"/></a>
             </div>
             <a href="index.html">Home</a>
             <a href="events.html">Social Events</a>
             <a href="profdev.html">Professional Development</a>
-            <a href="FAQ.html" style="color:#fecd08">FAQ</a>
+            <a href="FAQ.html" class="active1">>FAQ</a>
             <a href="board.html">Meet the Board</a>
             <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="topbar()">
+                <img src ="images/icons/hamburger.png">
+              </a>
         </div>
         <!-- <div class="topbar-line"></div> -->
         </div>
@@ -128,7 +131,7 @@
     
     for (i = 0; i < acc.length; i++) {
       acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
+        this.classList.toggle("active3");
         var panel = this.nextElementSibling;
         if (panel.style.maxHeight) {
           panel.style.maxHeight = null;

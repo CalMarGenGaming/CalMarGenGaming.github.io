@@ -21,11 +21,22 @@ function showSlides(n) {
       slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace(" active2", "");
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].className += " active2";
 }
+
+function topbar() {
+  var x = document.getElementById("Nav");
+  if (x.className === "topbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "topbar";
+  }
+}
+
+
 
 // var slideIndex = [1,1];
 // /* Class the members of each slideshow group with different CSS classes */
