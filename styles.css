@@ -131,6 +131,7 @@ justify-content: center;
 .topbar a:hover {
   color: #fecd08;
   background-color: #0e1130;
+  opacity: 100%;
 }
 
 
@@ -140,6 +141,7 @@ justify-content: center;
 
 .topbar a.active1 {
   color: #fecd08;
+  background-color:#0e1130;
 }
 
 .topbar img {
