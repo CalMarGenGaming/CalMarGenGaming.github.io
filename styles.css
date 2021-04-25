@@ -59,6 +59,21 @@ body {
   src: url(Karla/Karla-VariableFont_wght.ttf)
 }
 
+@font-face {
+  font-family: 'Spectral';
+  src: url(Spectral/Spectral-Medium.ttf)
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url(Rubik/static/Rubik-Medium.ttf)
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url(Lora/static/Lora-Medium.ttf)
+}
+
 /* Stolen from BL lol */
 head::before {
   content: "";
@@ -159,6 +174,7 @@ justify-content: center;
   font-size: 20px;
   display: block;
   background-color: #0e1130;
+  font-family: 'Poppins-Regular';
 }
 
 .topbar a:hover {
@@ -284,7 +300,6 @@ justify-content: center;
   .about {
     padding: 0 10px 0 10px;
     margin: 0 0 0 0;
-    text-align: justify;
     font-size: 20px;
   }
 
@@ -295,6 +310,20 @@ justify-content: center;
 
 
 /* Increase the font size of the <h1> element */
+h1 {
+  font-family: 'Rubik';
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Poppins-Light';
+}
+
+h2 {
+  font-family: 'Rubik';
+  font-size: 30px;
+}
 
 .about h0 {
   font-size: 65px;
@@ -308,11 +337,6 @@ justify-content: center;
 .about h2 {
   font-size: 28px;
   font-family: 'Poppins-Regular', sans-serif;
-}
-
-.about img {
-  height: 200px;
-  width: 50%;
 }
 
 /* Main column */
@@ -394,6 +418,7 @@ justify-content: center;
   text-align: right;
   padding: 10px;
   margin-right: 5px;
+  align-self: center;
 }
 
 .column_left_img {
@@ -408,13 +433,16 @@ justify-content: center;
   text-align: left;
   padding: 10px;
   margin-left: 5px;
+  align-self: center;
 }
+
 
 .column_right_img {
   flex: 45%;
   text-align: left;
   padding: 10px;
   margin-left: 5px;
+  align-items: center;
 }
 
 @media screen and (max-width: 940px) {
@@ -652,6 +680,8 @@ button:hover, a:hover {
   color:#fffaff;
 }
 
+
+
 .white-block {
   background:#fffaff;
   width:100%;
@@ -689,6 +719,14 @@ button:hover, a:hover {
   background: linear-gradient(to right bottom, #CF8AA3 49%, #fffaff 50%),    linear-gradient(-50deg, #fffaff 16px, #000 0);
 }
 
+.skew-cc2{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #fffaff 49%, #8197E7 50%),    linear-gradient(-50deg, #fffaff 16px, #000 0);
+}
+
 
 /*-------------------------*/
 /* SKEW COUNTER CLOCKWISE  */
@@ -699,6 +737,14 @@ button:hover, a:hover {
   position:absolute;
   left:0px;
   background: linear-gradient(to left bottom, #fffaff 49%, #CF8AA3 50%);
+}
+
+.skew-c2{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #8197E7 49%, #fffaff 50%);
 }
 
 
