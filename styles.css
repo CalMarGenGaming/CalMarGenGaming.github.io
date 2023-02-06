@@ -618,7 +618,7 @@ h2 {
     flex-wrap: wrap;
   }
 
-  .blog_post-img {
+  .blog_post_img {
     max-height: 200px;
     display: flex;
     flex-direction: row;
