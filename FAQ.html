@@ -18,12 +18,25 @@
     <div class="topbar" id="Nav">
         <a href="index.html" style="float: left;"><img src="images/strokelogo.png" alt="CMGG Logo"/></a>
         <a href="blog.html">Blog</a>
-        <a href="#contact">Contact</a>
         <a href="FAQ.html" class="active1">FAQ</a>
-        <a href="board.html">Meet the Board</a>
-        <a href="profdev.html">Professional Development</a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location.href='profdev.html';"> Professional Development
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="board.html">Mentorship Program</a>
+            </div>
+        </div>
         <a href="events.html">Social Events</a>
-        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location.href='index.html';"> Home
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="board.html">Meet the Board</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
         <a href="javascript:void(0);" class="icon" onclick="topbar()">
             <img src ="images/icons/hamburger.png">
           </a>
