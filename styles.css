@@ -564,19 +564,20 @@ h2 {
 
 .column_left_sponsor {
   flex: 45%;
-  text-align: right;
+  /*text-align: right;*/
+  text-align: center;
   padding: 10px;
   margin-right: 5px;
   align-self: center;
 }
 
-.column_right_sponsor {
+/*.column_right_sponsor {
   flex: 45%;
   text-align: left;
   padding: 10px;
   margin-left: 5px;
   align-self: center;
-}
+}*/
 
 @media screen and (max-width: 940px) {
 
