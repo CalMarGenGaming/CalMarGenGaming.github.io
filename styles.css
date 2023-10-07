@@ -449,6 +449,8 @@ h2 {
   padding: 10px;
   margin-left: 15px;
   margin-right:15px;
+  margin-bottom: 5%;
+  justify-content: center;
 }
 
 .blog_row {
