@@ -21,6 +21,16 @@ body {
   
 }
 
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1px; 
+  width: 100%;
+  margin: 0 auto;
+}
+
 .slides-container {
   display: flex;
   flex-direction: column;
@@ -334,7 +344,13 @@ justify-content: center;
 .social img {
   max-width: 64px;
   max-height: 64px;
-  margin: 1px;
+  margin: 5px;
+}
+
+.social a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
 }
 
 .about {
