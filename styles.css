@@ -1419,3 +1419,62 @@ html, body {
   color: #333;
   padding: 10px;
 }
+
+.tournament-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tournament-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 90%; /* 90% of the container width */
+  max-width: 600px; /* Maximum width to prevent it from getting too large */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.tournament-card h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.tournament-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tournament-card li {
+  margin-bottom: 10px;
+}
+
+.tournament-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.tournament-card a:hover {
+  text-decoration: underline;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-between; /* Ensures that videos are spaced out evenly */
+  gap: 10px; /* Adds spacing between the videos */
+  margin-top: 15px; /* Adds some space above the video container */
+  flex-wrap: wrap; /* Allow wrapping if videos don't fit */
+}
+
+iframe {
+  flex: 1; /* Ensures videos take equal space */
+  max-width: 100%; /* Ensures videos fit within the parent container */
+  height: 200px; /* Adjust height for consistency */
+  margin-bottom: 10px; /* Add some space below the videos */
+}
+
